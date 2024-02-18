@@ -1,0 +1,48 @@
+
+#body {
+  background-color: #1d1e22;
+  color: #feda6a;
+  font-family: monospace;
+  font-size: 25px;
+  height: 100vh;
+}
+
+#taskList {
+  padding: 200px;
+
+}
+
+#taskInput {
+  background-color: #fbfbfb;
+  color: #8ab611;
+  font-family: monospace;
+  font-size: 25px;
+  border-style:double;
+  width:  90%;
+}
+
+#taskUL {
+ 
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.delBtn{
+  float: right;
+  cursor: pointer;
+}
+
+.checkedBtn{
+  float: right;
+  cursor: pointer;
+  padding-right: 7px;
+}
+
+.list-item{
+  padding-right: 23%;
+}
+
+.taskCompleted {
+  text-decoration: line-through;
+}
